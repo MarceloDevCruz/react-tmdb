@@ -1,0 +1,59 @@
+.container .title {
+  color: #F6E2DF;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.title .query-text {
+  color: #F6E2DF;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.movies-container div {
+  width: 30%;
+  color: #F6E2DF;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #111;
+  padding: 1rem;
+}
+
+.movies-container div img {
+  max-width: 100%;
+}
+
+.movies-container div img,
+.movies-container div p,
+.movies-container div h2 {
+  margin-bottom: 1rem;
+}
+
+.movies-container div a {
+  background: #F6E2DF;
+  border: 0.1rem solid #F6E2DF;
+  border-radius: 0.2rem;
+  color: #121212;
+  padding: 0.3rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 400ms;
+}
+
+.movies-container div a:hover {
+  background-color: #998784;
+}
