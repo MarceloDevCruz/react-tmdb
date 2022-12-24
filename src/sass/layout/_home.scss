@@ -1,0 +1,107 @@
+.home {
+  height: 100rem;
+  width: 100%;
+  background-color: $color-white;
+  margin-top: -8.5rem;
+
+  &__streamers {
+    display: flex;
+    border-bottom: 1px solid $color-grey-dark-1;
+  }
+
+  &__streamers-img {
+    width: 33.33333%;
+    margin-top: 4.2rem;
+  }
+
+  &__streamers-box {
+    background-color: $color-white;
+    border-bottom: 1px solid $color-grey-light-2;
+  }
+
+  &__streamers-content {
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right,
+    $color-primary-light, $color-secondary-light);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 3px;
+  }
+
+  &__avaliation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem 1rem;
+  }
+
+  &__avaliation-box {
+    display: flex;
+    box-shadow: 0 .5rem 10rem rgba($color-grey-dark-1, 0.2);
+    border-radius: 8px;
+    width:42%;
+    height: 15rem;
+    padding: 1rem;
+    margin: 2rem;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      content: '\201C';
+      position: absolute;
+      top: -5rem;
+      left: -2.5rem;
+      line-height: 1;
+      font-size: 20rem;
+      color: $color-grey-light-2;
+      font-family: sans-serif;
+      z-index: 1;
+    }
+  }
+
+  &__profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__profile-icon {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+  }
+
+  &__profile-name {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: $color-secondary;
+  }
+
+  &__profile-comment {
+    text-align: justify;
+    margin: .5rem 1rem;
+    padding: .7rem;
+    color: $color-grey-dark-1;
+  }
+
+  &__title {
+    font-size: 3.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-weight: 700;
+    background-image: linear-gradient(to right,
+    $color-primary-light, $color-secondary-light);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 3px;
+  }
+}

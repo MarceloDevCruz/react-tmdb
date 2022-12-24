@@ -7,7 +7,7 @@ import Movie from './pages/Movie'
 import Home from './pages/Home'
 import Search from './pages/Search'
 
-import './index.css'
+import './styles/style.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -3,11 +3,9 @@ import { useSearchParams } from 'react-router-dom'
 
 import Card from '../components/Card'
 
-
 const searchURL = import.meta.env.VITE_SEARCH
 const apiKey = import.meta.env.VITE_API_KEY
 
-import './Grid.css'
 
 const Search = () => {
 
@@ -31,11 +29,6 @@ const Search = () => {
 
   return (
     <div className="container">
-      <h2 className="title">Resultados para: {query}</h2>
-      <div className="movies-container">
-        {movies.length > 0 && movies.map((movie) =>
-          <Card key={movie.id} movie={movie} />)}
-      </div>
     </div>
   )
 }

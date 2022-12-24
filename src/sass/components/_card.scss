@@ -1,0 +1,26 @@
+.card {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 5rem;
+  padding: 2rem;
+  width: 42%;
+  box-shadow: 0 1rem 5rem rgba($color-black, 0.5);
+
+  &__image {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  &__title {
+
+  }
+
+  &__details {
+
+  }
+
+  &__vote-avarage {
+
+  }
+}
