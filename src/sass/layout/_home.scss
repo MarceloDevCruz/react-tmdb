@@ -1,8 +1,9 @@
 .home {
-  height: 100rem;
+  height: 80rem;
   width: 100%;
   background-color: $color-white;
   margin-top: -8.5rem;
+
 
   &__streamers {
     display: flex;
@@ -45,10 +46,10 @@
     display: flex;
     box-shadow: 0 .5rem 10rem rgba($color-grey-dark-1, 0.2);
     border-radius: 8px;
-    width:42%;
-    height: 15rem;
+    width: 23%;
+    min-height: 25rem;
     padding: 1rem;
-    margin: 2rem;
+    margin: 2rem 0.5rem;
     align-items: center;
     position: relative;
 
@@ -86,7 +87,7 @@
   }
 
   &__profile-comment {
-    text-align: justify;
+    text-align: left;
     margin: .5rem 1rem;
     padding: .7rem;
     color: $color-grey-dark-1;

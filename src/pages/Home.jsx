@@ -102,8 +102,10 @@ const Home = () => {
         </h2>
 
       </div>
-      {topMovies.length > 0 && topMovies.map((movie) =>
-        <Card key={movie.id} movie={movie} />)}
+      <div className="card">
+        {topMovies.length > 0 && topMovies.map((movie) =>
+          <Card key={movie.id} movie={movie} />)}
+      </div>
     </>
   )
 }
