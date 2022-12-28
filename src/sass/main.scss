@@ -7,10 +7,12 @@
 @import './base/reset';
 @import './base/animation';
 @import './base/typography';
+@import './base/utils';
 
 // COMPONENTS
 @import './components/button';
 @import './components/card';
+@import './components/scrollbar';
 
 //LAYOUT
 @import './layout/container';

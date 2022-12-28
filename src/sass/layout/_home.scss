@@ -4,7 +4,6 @@
   background-color: $color-white;
   margin-top: -8.5rem;
 
-
   &__streamers {
     display: flex;
     border-bottom: 1px solid $color-grey-dark-1;
@@ -12,7 +11,6 @@
 
   &__streamers-img {
     width: 33.33333%;
-    margin-top: 4.2rem;
   }
 
   &__streamers-box {
@@ -80,7 +78,6 @@
   }
 
   &__profile-name {
-    margin-top: 1rem;
     text-align: center;
     font-weight: 700;
     color: $color-secondary;

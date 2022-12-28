@@ -37,9 +37,9 @@ const Home = () => {
     <>
       <div className="home">
         <div className="home__streamers">
-          <img src={disney} alt="disney" className="home__streamers-img" />
-          <img src={netflix} alt="netflix" className="home__streamers-img" />
-          <img src={amazonprime} alt="amazonprime" className="home__streamers-img" />
+          <img src={disney} alt="disney" className="home__streamers-img mg-top-lg" />
+          <img src={netflix} alt="netflix" className="home__streamers-img mg-top-lg" />
+          <img src={amazonprime} alt="amazonprime" className="home__streamers-img mg-top-lg" />
         </div>
         <div className="home__streamers-box">
           <h4 className="home__streamers-content">
@@ -50,7 +50,7 @@ const Home = () => {
             <div className="home__avaliation-box">
               <div className="home__profile-content">
                 <img src={user1} alt="" className="home__profile-icon" />
-                <span className="home__profile-name">Jake Nackos</span>
+                <span className="home__profile-name mg-top-sm">Jake Nackos</span>
               </div>
               <p className="home__profile-comment">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
@@ -62,7 +62,7 @@ const Home = () => {
             <div className="home__avaliation-box">
               <div className="home__profile-content">
                 <img src={user2} alt="" className="home__profile-icon" />
-                <span className="home__profile-name">Joseph Gonzales</span>
+                <span className="home__profile-name mg-top-sm">Joseph Gonzales</span>
               </div>
               <p className="home__profile-comment">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
@@ -74,7 +74,7 @@ const Home = () => {
             <div className="home__avaliation-box">
               <div className="home__profile-content">
                 <img src={user3} alt="" className="home__profile-icon" />
-                <span className="home__profile-name">Elizeu Dias</span>
+                <span className="home__profile-name mg-top-sm">Elizeu Dias</span>
               </div>
               <p className="home__profile-comment">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
@@ -86,7 +86,7 @@ const Home = () => {
             <div className="home__avaliation-box">
               <div className="home__profile-content">
                 <img src={user4} alt="" className="home__profile-icon" />
-                <span className="home__profile-name">Ayo Ogunseinde</span>
+                <span className="home__profile-name mg-top-sm">Ayo Ogunseinde</span>
               </div>
               <p className="home__profile-comment">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla

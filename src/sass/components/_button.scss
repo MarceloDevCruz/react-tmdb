@@ -1,7 +1,26 @@
 .btn {
+a, a:link, a:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.3rem 5rem;
+    display: inline-block;
+    border-radius: 5rem;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-light, 0.8),
+    rgba($color-secondary-dark, 0.8));
+    color: $color-white;
+
+    &:hover {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-dark, 0.8),
+        rgba($color-primary-light, 0.8));
+    }
+  }
 
 }
 
-.btn-inline {
-  
-}
