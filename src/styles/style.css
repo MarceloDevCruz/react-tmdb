@@ -47,6 +47,9 @@ body {
 .mg-top-hg {
   margin-top: 8rem !important; }
 
+.bd-bottom-grey {
+  border-bottom: 1px solid #f5e8e8 !important; }
+
 .btn a, .btn a:link, .btn a:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -136,11 +139,11 @@ body {
     align-items: center;
     justify-content: center;
     padding: 5rem; }
-  .header__logo {
+  .header__logo a {
     font-size: 6rem;
     color: #e4dfdf;
     margin: 0 2rem; }
-  .header__title {
+  .header__title a {
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -268,3 +271,42 @@ body {
     background-clip: text;
     color: transparent;
     letter-spacing: 3px; }
+
+.movie {
+  margin-top: -4.3rem; }
+  .movie__container {
+    font-size: 1.6rem; }
+  .movie__image {
+    width: 100%;
+    filter: contrast(150%) brightness(90%);
+    clip-path: polygon(0 9%, 50% 0, 100% 9%, 100% 100%, 0% 100%);
+    border-bottom: 2px solid #e85137; }
+  .movie__title {
+    font-size: 4rem;
+    color: #b32f2f;
+    font-weight: 400;
+    text-align: center;
+    background-image: linear-gradient(to right, #ff3d1f, #f674f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; }
+  .movie__content {
+    margin: .5rem 4rem;
+    margin: 0 auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1rem; }
+  .movie__homepage a,
+  .movie__homepage a:visited,
+  .movie__homepage a:link {
+    text-decoration: none;
+    color: #d24fce; }
+  .movie__overview {
+    grid-column: 1/-1;
+    display: inline-block;
+    margin: 2rem auto;
+    width: 100%;
+    text-align: center;
+    color: #d24fce; }

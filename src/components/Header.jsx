@@ -20,16 +20,18 @@ const Header = () => {
     <header className="header">
       <div className="header__container">
         <div className="header__logo">
-          <BiCameraMovie />
+          <Link to="/"><BiCameraMovie /></Link>
         </div>
         <h1 className="header__title">
-          Maximus Film
+          <Link to="/">Maximus Film</Link>
         </h1>
       </div>
-      <form action="" className="header__search-container">
+      <form onSubmit={handleSubmit} className="header__search-container">
         <input type="search" placeholder="Search films"
-          className="header__search-input" />
-        <button className="header__search-button">
+          className="header__search-input"
+          onChange={(e) => setSearch(e.target.value)}
+          value={search} />
+        <button type="submit" className="header__search-button">
           <div className="header__search-icon">
             <BiSearchAlt2 />
           </div>

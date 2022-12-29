@@ -1,0 +1,57 @@
+.movie {
+
+   margin-top: -4.3rem;
+
+  &__container {
+    font-size: 1.6rem;
+  }
+
+  &__image {
+    width: 100%;
+    filter: contrast(150%) brightness(90%);
+    clip-path: polygon(0 9%, 50% 0, 100% 9%, 100% 100%, 0% 100%);
+    border-bottom: 2px solid $color-primary;
+  }
+
+  &__title {
+    font-size: 4rem;
+    color: $color-primary-dark;
+    font-weight: 400;
+    text-align: center;
+    background-image: linear-gradient(to right,
+    $color-primary-light, $color-secondary-light);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;  
+  }
+
+  &__content {
+    margin: .5rem 4rem;
+    margin: 0 auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1rem;
+  }
+
+  &__homepage {
+
+    a,
+    a:visited,
+    a:link {
+      text-decoration: none;
+      color: $color-secondary;
+    }
+  }
+
+  &__overview {
+    grid-column: 1/-1;
+    display: inline-block;
+    margin: 2rem auto;
+    width: 100%;
+    text-align: center;
+    color: $color-secondary;
+  }
+
+}

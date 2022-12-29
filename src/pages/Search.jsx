@@ -28,7 +28,12 @@ const Search = () => {
   }, [query])
 
   return (
-    <div className="container">
+    <div className="search">
+      <h2 className="search__title">Resultados para: {query}</h2>
+      <div className="card">
+        {movies.length > 0 && movies.map((movie) =>
+          <Card key={movie.id} movie={movie} />)}
+      </div>
     </div>
   )
 }
